@@ -48,7 +48,7 @@ $ anvil
 ### Deploy
 
 ```shell
-$ forge script script/OptiFi.s.sol:DeployOptiFi --rpc-url base_sepolia --broadcast --verify --etherscan-api-key base_sepolia -vvvv
+$ forge script script/OriginX.s.sol:DeployOriginX --rpc-url https://rpc.blaze.soniclabs.com --private-key PRIVATE_KEY --broadcast --verify --etherscan-api-key SONIC_BLAZE_API_KEY --verifier blockscout --verifier-url https://api-testnet.sonicscan.org/api 
 ```
 
 ### Cast
